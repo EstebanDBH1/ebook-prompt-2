@@ -299,7 +299,7 @@ export default function PageEbook2() {
               href="#offer"
               className="bg-black text-white px-6 py-3 rounded hover:bg-[#990000] transition-colors font-bold text-xs uppercase tracking-wider"
             >
-              Comprar por $10
+              Obtener
             </a>
           </div>
 
