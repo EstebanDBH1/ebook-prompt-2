@@ -19,7 +19,7 @@ import {
   Lock,
 } from "lucide-react";
 
-import ImageEbook from "./assets/image/image.jpeg"
+import ImageEbook from "./assets/image/image.jpeg";
 // --- Global Styles for Font & Animations ---
 const FontStyles = () => (
   <style>{`
@@ -276,9 +276,7 @@ export default function PageEbook2() {
       <nav className="sticky top-0 w-full z-40 bg-white/95 backdrop-blur-md border-b-2 border-black">
         <div className="max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className=" bg-black text-white flex items-center justify-center rounded font-bold heading-font text-xl">
-              
-            </div>
+            <div className=" bg-black text-white flex items-center justify-center rounded font-bold heading-font text-xl"></div>
             <span className="text-2xl heading-font font-bold tracking-tighter uppercase text-black">
               <span className="text-[#990000]"></span>
             </span>
@@ -447,7 +445,7 @@ export default function PageEbook2() {
                 "Prompts para creación de contenido y copywriting",
                 "Prompts para aprendizaje y educación",
                 "Prompts para marketing y ventas",
-                "Automatización de tareas", 
+                "Automatización de tareas",
                 "Copywriting persuasivo",
                 "Creación de contenido viral",
                 "Análisis de datos complejos",
@@ -461,7 +459,7 @@ export default function PageEbook2() {
                 "Prompts para programación y desarrollo",
                 "Técnicas avanzadas de prompt engineering",
                 "Plantillas listas para copiar y pegar",
-                "Actualizaciones gratuitas de por vida"
+                "Actualizaciones gratuitas de por vida",
               ].map((item, i) => (
                 <div
                   key={i}
@@ -488,8 +486,7 @@ export default function PageEbook2() {
             {/* Abstract Book Cover Representation */}
             <div className="relative bg-black rounded-xl p-1 transform rotate-3 shadow-2xl border-4 border-gray-800 max-w-sm mx-auto hover:rotate-0 transition-all duration-500">
               <img src={ImageEbook} alt="ebook-cover" />
-              {
-                /*
+              {/*
               <div className="bg-[#111] rounded-lg p-8 md:p-12 border border-gray-700 text-center">
                 <div className="mb-8 flex justify-center">
                   <div className="w-20 h-20 bg-[#990000] rounded-full flex items-center justify-center text-white border-4 border-black shadow-lg">
@@ -504,8 +501,7 @@ export default function PageEbook2() {
                   Edición Master 2025
                 </p>
               </div>
-                */
-              }
+                */}
             </div>
             {/* Decoration */}
             <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#990000] rounded-full blur-3xl opacity-20 z-[-1]"></div>
