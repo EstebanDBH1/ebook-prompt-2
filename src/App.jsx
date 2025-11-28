@@ -722,20 +722,14 @@ export default function PageEbook2() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
           <div>
             <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-              <div className="w-6 h-6 bg-white text-black flex items-center justify-center rounded font-bold text-xs">
-                P
-              </div>
-              <span className="font-bold text-lg tracking-tight">
-                PromptsPro
-              </span>
+              <div className=""></div>
+              <span className="font-bold text-lg tracking-tight"></span>
             </div>
             <p className="text-xs text-gray-500">
               © 2025 PromptsPro. Todos los derechos reservados.
             </p>
           </div>
-
           {/*
-
           <div className="flex gap-6 text-xs text-gray-400 font-bold uppercase tracking-widest">
             <a href="#" className="hover:text-white transition-colors">Privacidad</a>
             <a href="#" className="hover:text-white transition-colors">Términos</a>
